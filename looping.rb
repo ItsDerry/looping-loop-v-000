@@ -1,9 +1,8 @@
-counter = 1
 def looping
-  while counter < 2
   puts "Wingardium Leviosa"
-  end
 end
 
-looping
+loop do
+  puts looping
+end
 #call your method here
